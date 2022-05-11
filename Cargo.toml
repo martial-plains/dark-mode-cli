@@ -1,6 +1,7 @@
 [package]
 name = "dark-mode"
 description = "Controls dark mode from the terminal"
+authors = ["Allister Isaiah Harvey <isaiahharvey1998@outlook.com>"]
 version = "0.1.0"
 edition = "2021"
 
