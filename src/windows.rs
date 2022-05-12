@@ -1,5 +1,6 @@
 use registry::{Data, Hive, Security};
 
+/// Check dark mode status
 pub fn dark_mode_status() -> bool {
     let regkey = Hive::CurrentUser
         .open(
@@ -13,6 +14,7 @@ pub fn dark_mode_status() -> bool {
     a.to_string() == "0x0000000000000000"
 }
 
+/// Enable dark mode
 pub fn enable_dark_mode() {
     let regkey = Hive::CurrentUser
         .open(
@@ -30,6 +32,7 @@ pub fn enable_dark_mode() {
         .expect("Could not set to dark mode");
 }
 
+/// Disable dark mode
 pub fn disable_dark_mode() {
     let regkey = Hive::CurrentUser
         .open(
