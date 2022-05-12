@@ -9,8 +9,6 @@ mod windows;
 #[cfg(target_os = "windows")]
 pub use windows::*;
 
-mod utils;
-
 /// Dark mode struct
 pub struct DarkMode {
     enabled: bool,

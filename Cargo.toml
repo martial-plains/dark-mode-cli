@@ -4,7 +4,6 @@ description = "Controls dark mode from the terminal"
 authors = ["Allister Isaiah Harvey <isaiahharvey1998@outlook.com>"]
 version = "0.9.0"
 license = "MIT"
-license-file = "LICENSE"
 readme = "README.md"
 edition = "2021"
 
