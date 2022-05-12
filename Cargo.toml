@@ -2,9 +2,11 @@
 name = "dark-mode"
 description = "Controls dark mode from the terminal"
 authors = ["Allister Isaiah Harvey <isaiahharvey1998@outlook.com>"]
-version = "0.9.0"
+version = "1.0.0"
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/powpow58/dark-mode-cli"
+keywords = ["dark-mode", "windows", "cli", "terminal", "macos"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

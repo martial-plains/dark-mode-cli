@@ -3,6 +3,7 @@ use dark_mode::DarkMode;
 
 #[derive(Debug, Parser)]
 #[clap(name = env!("CARGO_PKG_NAME"))]
+#[clap(version = env!("CARGO_PKG_VERSION"))]
 #[clap(about = env!("CARGO_PKG_DESCRIPTION"), long_about = None)]
 struct Cli {
     #[clap(subcommand)]
