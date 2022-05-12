@@ -27,5 +27,5 @@ For now, I currently don't have a way to install dark-mode from a package manage
 Building from source is the easiest way to get dark-mode working.
 
 ```sh
-cargo install path .
+cargo install --path .
 ```
