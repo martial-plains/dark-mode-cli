@@ -5,7 +5,7 @@ authors = ["Allister Isaiah Harvey <isaiahharvey1998@outlook.com>"]
 version = "1.0.0"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/powpow58/dark-mode-cli"
+repository = "https://github.com/a-isaiahharvey/dark-mode-cli"
 keywords = ["dark-mode", "windows", "cli", "terminal", "macos"]
 edition = "2021"
 
