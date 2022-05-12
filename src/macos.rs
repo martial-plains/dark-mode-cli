@@ -1,7 +1,6 @@
 use std::process::Command;
 
 /// Run AppleScript
-#[cfg(target_os = "macos")]
 pub fn run_apple_script(script: &str) -> String {
     let process = Command::new("osascript")
         .arg("-l")
