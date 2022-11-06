@@ -15,4 +15,4 @@ edition = "2021"
 clap = { version = "3.2.23", features = ["derive"] }
 
 [target.'cfg(target_os = "windows")'.dependencies]
-registry = "1.2.1"
+registry = "1.2.2"
