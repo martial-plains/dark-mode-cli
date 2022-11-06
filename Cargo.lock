@@ -180,9 +180,9 @@ dependencies = [
 
 [[package]]
 name = "registry"
-version = "1.2.1"
+version = "1.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d593176a37a58e828d0503cfbb257983786c88b75c786994432324be775afaa9"
+checksum = "83e4b158bf49b0d000013487636c92268de4cfd26cdbb629f020a612749f12c4"
 dependencies = [
  "bitflags",
  "log",
