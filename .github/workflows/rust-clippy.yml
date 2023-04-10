@@ -11,17 +11,17 @@ name: rust-clippy analyze
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "master" ]
+    branches: [ "main" ]
   schedule:
     - cron: '19 1 * * 2'
 
 jobs:
   rust-clippy-analyze:
     name: Run rust-clippy analyzing
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     permissions:
       contents: read
       security-events: write
