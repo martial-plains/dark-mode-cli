@@ -9,7 +9,7 @@ pub fn dark_mode_status() -> bool {
         )
         .unwrap();
 
-    let a = regkey.value("AppsUseLightTheme").unwrap();
+    let a = regkey.value("SystemUsesLightTheme").unwrap();
 
     a.to_string() == "0x0000000000000000"
 }
